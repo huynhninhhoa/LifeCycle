@@ -1,0 +1,4 @@
+<resources>
+    //Tên ứng dụng
+    <string name="app_name">Life Cycle Method</string>
+</resources>

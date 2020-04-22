@@ -1,0 +1,34 @@
+
+Tên: Nguyễn Thành Huynh 
+MSSV: 5913 1001
+
+Câu 4: Cho biết các phương thức vòng đời được gọi khi ứng dụng đang chạy và người sử
+       dụng bấm vào nút back sau đó mở lại ứng dụng.
+       -Khi bấm nút Back:
+        + onPause()
+        + onStop()
+        + onDestroy()
+       -Khi mở lại ứng dụng:
+        +onCreate()
+        +onStart()
+        +onResume().
+Câu 5: Cho biết các phương thức vòng đời được gọi khi ứng dụng đang chạy và người sử
+       dụng bấm vào nút home và sau đó mở lại ứng dụng.
+       -Khi bấm nút Home:
+        + onPause()
+        + onStop()
+       -Khi mở lại ứng dụng:
+        + onRestart()
+        + onStart()
+        + onResume()
+Câu 6: Nếu cần lưu thông tin của ứng dụng để khôi phục lại trạng thái hiển thị của ứng dụng
+       khi chạy lại ứng dụng thì cần phải thực hiện trong phương thức vòng đời nào? vì sao?
+       -Sử dụng: onPause()
+       -Vì:
+       + onPause(): được gọi khi tiến trình bị hủy hoặc hệ thống chuẩn bị chuyển sang một Activity khác.
+       + onPause(): thường dùng để ghi các thay đổi chưa được lưu, lưu lại dự liệu thật nhanh để hệ thống còn kích hoạt Activity khác
+       ==>Nên onPause là phương thức dùng để lưu thông tin và để khôi phục lại trạng thái hiển thị của ứng dụng
+       khi chạy lại ứng dụng
+
+
+
